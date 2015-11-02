@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914248531BE741E30012D733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914248521BE741E30012D733 /* main.m */; };
+		914248561BE741E30012D733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914248551BE741E30012D733 /* AppDelegate.m */; };
+		914248591BE741E30012D733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914248581BE741E30012D733 /* ViewController.m */; };
+		9142485C1BE741E30012D733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9142485A1BE741E30012D733 /* Main.storyboard */; };
+		9142485E1BE741E30012D733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9142485D1BE741E30012D733 /* Assets.xcassets */; };
+		914248611BE741E30012D733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9142485F1BE741E30012D733 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9142484E1BE741E30012D733 /* 3DTouchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914248521BE741E30012D733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914248541BE741E30012D733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		914248551BE741E30012D733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		914248571BE741E30012D733 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		914248581BE741E30012D733 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9142485B1BE741E30012D733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9142485D1BE741E30012D733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914248601BE741E30012D733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914248621BE741E30012D733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9142484B1BE741E30012D733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914248451BE741E30012D733 = {
+			isa = PBXGroup;
+			children = (
+				914248501BE741E30012D733 /* 3DTouchPad */,
+				9142484F1BE741E30012D733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9142484F1BE741E30012D733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9142484E1BE741E30012D733 /* 3DTouchPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914248501BE741E30012D733 /* 3DTouchPad */ = {
+			isa = PBXGroup;
+			children = (
+				914248541BE741E30012D733 /* AppDelegate.h */,
+				914248551BE741E30012D733 /* AppDelegate.m */,
+				914248571BE741E30012D733 /* ViewController.h */,
+				914248581BE741E30012D733 /* ViewController.m */,
+				9142485A1BE741E30012D733 /* Main.storyboard */,
+				9142485D1BE741E30012D733 /* Assets.xcassets */,
+				9142485F1BE741E30012D733 /* LaunchScreen.storyboard */,
+				914248621BE741E30012D733 /* Info.plist */,
+				914248511BE741E30012D733 /* Supporting Files */,
+			);
+			path = 3DTouchPad;
+			sourceTree = "<group>";
+		};
+		914248511BE741E30012D733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				914248521BE741E30012D733 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9142484D1BE741E30012D733 /* 3DTouchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914248651BE741E30012D733 /* Build configuration list for PBXNativeTarget "3DTouchPad" */;
+			buildPhases = (
+				9142484A1BE741E30012D733 /* Sources */,
+				9142484B1BE741E30012D733 /* Frameworks */,
+				9142484C1BE741E30012D733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchPad;
+			productName = 3DTouchPad;
+			productReference = 9142484E1BE741E30012D733 /* 3DTouchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914248461BE741E30012D733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Moses Lee";
+				TargetAttributes = {
+					9142484D1BE741E30012D733 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PYF7E49S7D;
+					};
+				};
+			};
+			buildConfigurationList = 914248491BE741E30012D733 /* Build configuration list for PBXProject "3DTouchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914248451BE741E30012D733;
+			productRefGroup = 9142484F1BE741E30012D733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9142484D1BE741E30012D733 /* 3DTouchPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9142484C1BE741E30012D733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914248611BE741E30012D733 /* LaunchScreen.storyboard in Resources */,
+				9142485E1BE741E30012D733 /* Assets.xcassets in Resources */,
+				9142485C1BE741E30012D733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9142484A1BE741E30012D733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914248591BE741E30012D733 /* ViewController.m in Sources */,
+				914248561BE741E30012D733 /* AppDelegate.m in Sources */,
+				914248531BE741E30012D733 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9142485A1BE741E30012D733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9142485B1BE741E30012D733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9142485F1BE741E30012D733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914248601BE741E30012D733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914248631BE741E30012D733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		914248641BE741E30012D733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914248661BE741E30012D733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Learn.-DTouchPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		914248671BE741E30012D733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Learn.-DTouchPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914248491BE741E30012D733 /* Build configuration list for PBXProject "3DTouchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914248631BE741E30012D733 /* Debug */,
+				914248641BE741E30012D733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914248651BE741E30012D733 /* Build configuration list for PBXNativeTarget "3DTouchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914248661BE741E30012D733 /* Debug */,
+				914248671BE741E30012D733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914248461BE741E30012D733 /* Project object */;
+}
